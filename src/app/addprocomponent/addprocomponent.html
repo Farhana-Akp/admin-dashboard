@@ -1,0 +1,34 @@
+
+
+
+
+
+<h1>ADD PRODUCT</h1>
+
+
+
+<form  [formGroup]="addpro"   (ngSubmit)="add()">
+
+
+ID:
+
+<input type="text" formControlName="id"><br><br>
+
+
+NAME:
+
+<input type="text" formControlName="name"><br><br>
+
+
+PRICE:
+
+<input type="text" formControlName="price"><br><br>
+
+
+<button type="submit" [disabled]="addpro.invalid">ADD PRODUCT</button>
+
+
+
+
+
+</form>

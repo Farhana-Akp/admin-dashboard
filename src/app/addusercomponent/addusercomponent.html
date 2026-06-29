@@ -1,0 +1,48 @@
+
+
+
+
+<h1>ADD USER</h1>
+
+
+
+<form [formGroup]="addform"  (ngSubmit)="adduser()">
+
+ID:
+
+
+<input type="text" formControlName="id"><br><br>
+
+
+
+NAME:
+
+
+<input type="text" formControlName="name"><br><br>
+
+
+PLACE:
+
+<select  formControlName="place">
+
+    <option>kannur</option>
+        <option>kasargod</option>
+    <option>kozhikkkodu</option>
+
+</select><br><br>
+
+PHONE:
+
+
+<input type="text" formControlName="phone"><br><br>
+
+ADDRESS:
+
+
+<textarea   rows="3" cols="30"  formControlName="address"></textarea><br><br><br>
+
+
+
+<button type="submit()" [disabled]="addform.invalid">adduser</button>
+
+</form>

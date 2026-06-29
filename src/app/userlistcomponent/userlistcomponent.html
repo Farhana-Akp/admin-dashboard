@@ -1,0 +1,41 @@
+
+
+
+
+<h1>USERLIST</h1>
+
+
+
+<table   border="3">
+
+
+<tr>
+
+    <th>ID</th>
+        <th>NAME</th>
+    <th>PLACE</th>
+    <th>PHONE</th>
+    <th>ADDRESS</th>
+
+</tr>
+
+
+<tr  *ngFor="let item of array1">
+
+
+    <td>{{item.id}}</td>
+        <td>{{item.name}}</td>
+    <td>{{item.place}}</td>
+    <td>{{item.phone}}</td>
+    <td>{{item.address}}</td>
+     <td><button type="button"  (click)="edit(item.id)">EDIT</button></td>
+</tr>
+
+
+
+
+</table>
+
+
+
+<button type="button"  (click)="add()">ADDUSER</button>
