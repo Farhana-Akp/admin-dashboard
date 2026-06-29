@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # AdminDashboard2
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.2.6.
@@ -57,3 +58,6 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
 ## Additional Resources
 
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+=======
+# admin-dashboard
+>>>>>>> 55c5ab0c343cd8a8c1e4de0155d02091582bff3f
